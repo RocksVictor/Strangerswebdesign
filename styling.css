@@ -1,0 +1,131 @@
+.bod{
+	background-image: url(shenron.jpg);
+	background-attachment: fixed;
+}
+#boxes{
+	text-decoration: none;
+	text-shadow: 10px 5px 7px;
+	text-align: right;
+	text-transform: capitalize;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 25px;
+	font-weight: 600;
+	word-spacing: 40px;
+}
+.header{
+	text-align: center;
+	text-shadow: 2px 3px 4px;
+	font-size: 43px;
+	color: indianred;		
+}
+a:link{
+	text-decoration: none;
+	color: indianred;
+}
+a:hover{
+	color: brown;
+	background-color: antiquewhite;
+	border-radius: 10px;
+}
+#article{
+	border: 1px solid black;
+	width: 300px;
+	height: 170px;
+	background-color: bisque;
+	text-align: center;
+	box-shadow: 10px 10px 10px;
+	margin-top: 100px;
+	margin-left: 520px;
+	border-radius: 10px;
+}
+
+.startbutt{
+	color: coral;
+	text-decoration: none;
+	font-size: 24px;
+}
+.startbutt:hover{
+	color: crimson;
+	background-color:antiquewhite;
+	border-radius: 13px;
+}
+.box1{
+	color: indianred;
+	text-decoration: none;
+}
+.box2{
+	color: indianred;
+	text-decoration: none;
+}
+.box3{
+	color: indianred;
+	text-decoration: none;
+}
+.box4{
+	color: indianred;
+	text-decoration: none;
+}
+.supersign{
+	font-size: 24px;
+	padding: 10px;
+	border: 1px solid black;
+	width: 20px;
+	height: 5px;
+	margin: 10px;
+	margin-top: 310px;
+	background-color: indianred;
+	color: crimson;
+	border-color: azure;
+	box-shadow: 7px 7px 7px;
+}
+.supersign:hover{
+	color: brown;
+	background-color: antiquewhite;
+	border-radius: none;
+}
+.foot{
+	background-image: url(arch.jpg);
+	background-attachment: fixed;
+	width: 1340px;
+	height: 400px;
+	text-align: center;
+	padding-top: 30px;
+	font-size: 40px;
+	border-color: coral;
+	border-radius: 30px;
+	color: dodgerblue;
+	text-shadow: 10px 10px 10px;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.email{
+	background-color: azure;
+	color: black;
+	border-radius: 20px;
+	font-size: 20px;
+	border-color: aqua;
+	box-shadow: 5px 5px 5px;
+}
+.submit{
+	font-size: 20px;
+	font-family: fantasy;
+	color: cornflowerblue;
+	border-radius: 7px;
+	width: 91px;
+}
+.submit:hover{
+	color: darkcyan;
+	background-color:white;
+	cursor: pointer;
+}
+.copyright{
+	text-align: center;
+	animation-name: copies;
+	animation-delay: 1s;
+	animation-timing-function: linear;
+	animation-direction: normal;
+	animation-iteration-count: initial;
+	animation-duration: 3s;
+}
+@keyframe copies{
+       
+}
